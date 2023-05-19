@@ -1,9 +1,10 @@
-import Button from '../Button'
+import Button from '../Button';
+import './style.scss';
 
 export default function Form(){
     return(
-        <form>
-            <div>
+        <form className='novaTarefa'>
+            <div className='inputContainer'>
                 <label htmlFor='task'>Insert a new task here!</label>
                 <input type="text" name="task" id="task"
                 placeholder="What Thou Shall Do?" required/>

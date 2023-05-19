@@ -1,14 +1,8 @@
+import './style.scss';
+
 export default function Button(){
-
-    const backgroundColor = 'purple';
-    const color = 'white';
-
-    const styles = {
-        backgroundColor,
-        color
-    }
     return(
-        <button style={styles}>
+        <button className='botao'>
             Button
         </button>
     )

@@ -1,5 +1,15 @@
 export default function Button(){
+
+    const backgroundColor = 'purple';
+    const color = 'white';
+
+    const styles = {
+        backgroundColor,
+        color
+    }
     return(
-        <button>Button</button>
+        <button style={styles}>
+            Button
+        </button>
     )
 }

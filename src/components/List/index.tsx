@@ -1,4 +1,4 @@
-import './style.scss'
+import style from './List.module.scss';
 
 export default function List(){
 
@@ -19,11 +19,11 @@ export default function List(){
     }] 
 
     return(
-        <aside className='listaTarefas'>
+        <aside className={style.listaTarefas}>
             <h2>Daily Studies</h2>
             <ul>
                 {tarefas.map((item, index) => (
-                <li className='item' key={index}>
+                <li className={style.item} key={index}>
                     <h3>{item.tarefa}</h3>
                     <span>{item.tempo}</span>
                     <p>{item.descricao}</p>

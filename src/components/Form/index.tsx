@@ -16,8 +16,9 @@ export default function Form(){
                 step="1" min="00:00:00" max="24:00:00" required/>
             </div>
 
-            <Button
-            texto="Add Task"/>
+            <Button>
+                Add Task!
+            </Button>
         </form>
     )
 }
